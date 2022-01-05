@@ -7,7 +7,9 @@ import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
 import { FormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
-
+import { MatSidenavModule } from '@angular/material/sidenav';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { MatListModule } from '@angular/material/list'; 
 const Modules = [
   CommonModule,    
   MatButtonModule,
@@ -17,6 +19,9 @@ const Modules = [
   MatDividerModule,
   FormsModule,
   FlexLayoutModule,
+  MatSidenavModule,
+  MatToolbarModule,
+  MatListModule,
 ]
 
 @NgModule({

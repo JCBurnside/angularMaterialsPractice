@@ -4,7 +4,6 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-contact-manager-app',
   template: `
     <app-sidenav></app-sidenav>
-    <router-outlet>
   `,
   styles: [
   ]
